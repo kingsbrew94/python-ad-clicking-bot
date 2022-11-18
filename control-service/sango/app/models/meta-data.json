@@ -1,0 +1,266 @@
+{
+    "$URL": "https://www.likecz.cc",
+    "$LOGIN_INPUTS": [
+        {
+            "$NAME": "Username",
+            "$SELECTOR": {
+              "$TYPE" : "css",
+              "$VALUE": "input.uni-input-input[type=\"\"]"
+            }
+        },
+        {
+            "$NAME": "Password",
+            "$SELECTOR": {
+              "$TYPE" : "css",
+              "$VALUE": "input.uni-input-input[type=\"password\"]"
+            }
+        },
+        {
+            "$NAME": "LoginButton",
+            "$SELECTOR": {
+              "$TYPE" : "css",
+              "$VALUE": "uni-button[class=\"cu-btn round bg-blue wfill round-margin-top\"]"
+            }
+        }
+    ],
+    "$ERRORS": [
+        {
+            "$NAME": "Timedout",
+            "$SELECTOR": {
+                "$TYPE": "class",
+                "$VALUE": "uni-async-error"
+            }
+        }
+    ],
+    "$LOADERS": [
+        {
+            "$NAME": "Small",
+            "$SELECTOR": {
+                "$TYPE": "class",
+                "$VALUE": "uni-loading"
+            }
+        },
+        {
+            "$NAME": "Big",
+            "$SELECTOR": {
+                "$TYPE": "class",
+                "$VALUE": "uni-toast"
+            }
+        }
+    ],
+    "$NAV_BAR": {
+        "$BUTTONS": [
+            {
+                "$NAME": "Home",
+                "$SELECTOR": {
+                    "$TYPE": "css",
+                    "$VALUE": "div[class=\"uni-tabbar__item\"]"
+                }
+            },
+            {
+                "$NAME": "Member",
+                "$SELECTOR": {
+                    "$TYPE": "css",
+                    "$VALUE": "div[class=\"uni-tabbar__item\"]"
+                }
+            },
+            {
+                "$NAME": "Task",
+                "$SELECTOR": {
+                    "$TYPE": "css",
+                    "$VALUE": "div[class=\"uni-tabbar__item\"]"
+                }
+            },
+            {
+                "$NAME": "Record",
+                "$SELECTOR": {
+                    "$TYPE": "css",
+                    "$VALUE": "div[class=\"uni-tabbar__item\"]"
+                }
+            },
+            {
+                "$NAME": "My",
+                "$SELECTOR": {
+                    "$TYPE": "css",
+                    "$VALUE": "div[class=\"uni-tabbar__item\"]"
+                }
+            }
+        ]
+    },
+    "$HOME": {
+        "$APP": [
+            {
+                "$NAME": "App",
+                "$SELECTOR": {
+                    "$TYPE": "css",
+                    "$VALUE": "uni-app[class=\"uni-app--maxwidth\"]"
+                }
+            }
+        ],
+        "$BUTTONS": [
+            {
+                "$NAME": "Facebook",
+                "$SELECTOR": {
+                    "$TYPE": "class",
+                    "$VALUE": "uni-view[class=\"cu-item facebook\"]"
+                }
+            },
+            {
+                "$NAME": "TikTok",
+                "$SELECTOR": {
+                    "$TYPE": "class",
+                    "$VALUE": "uni-view[class=\"cu-item douyin\"]"
+                }
+            }
+        ]
+    },
+    "$TASK": {
+        "$HALLS": [
+            {
+                "$NAME": "Facebook",
+                "$SELECTOR": {
+                    "$TYPE": "id",
+                    "$VALUE": "u-tab-item-0"
+                }
+            },
+            {
+                "$NAME": "TikTok",
+                "$SELECTOR": {
+                    "$TYPE": "id",
+                    "$VALUE": "u-tab-item-1"
+                }
+            }
+        ],
+        "$LEVELS": [
+            {
+                "$NAME": "Lv.0",
+                "$SELECTOR": {
+                    "$TYPE": "css",
+                    "$VALUE": "uni-view[class=\"u-tabs-item UEl_0\"]"
+                }
+            },
+            {
+                "$NAME": "Lv.1",
+                "$SELECTOR": {
+                    "$TYPE": "css",
+                    "$VALUE": "uni-view[class=\"u-tabs-item UEl_1\"]"
+                }
+            },
+            {
+                "$NAME": "Lv.2",
+                "$SELECTOR": {
+                    "$TYPE": "css",
+                    "$VALUE": "uni-view[class=\"u-tabs-item UEl_2\"]"
+                }
+            },
+            {
+                "$NAME": "Lv.3",
+                "$SELECTOR": {
+                    "$TYPE": "css",
+                    "$VALUE": "uni-view[class=\"u-tabs-item UEl_3\"]"
+                }
+            }
+        ],
+        "$COMMISSIONS": [
+            {
+                "$NAME": "Commission",
+                "$SELECTOR": {
+                    "$TYPE": "css",
+                    "$VALUE": "uni-view[class=\"action margin-left text-center\"]"
+                }
+            }
+        ]
+    },
+    "$RECORD": {
+        "$CREDIT": {
+            "$NAME": "Opportunity",
+            "$SELECTOR": {
+                "$TYPE": "class",
+                "$VALUE": "text-xl"
+            }
+        }, 
+        "$MENUS": [
+            {
+                "$NAME": "Progress",
+                "$SELECTOR": {
+                    "$TYPE": "css",
+                    "$VALUE": "uni-view[class=\"u-tabs-item UEl_0\"]"
+                }
+            },
+            {
+                "$NAME": "Review",
+                "$SELECTOR": {
+                    "$TYPE": "css",
+                    "$VALUE": "uni-view[class=\"u-tabs-item UEl_1\"]"
+                }
+            },
+            {
+                "$NAME": "Finished",
+                "$SELECTOR": {
+                    "$TYPE": "css",
+                    "$VALUE": "uni-view[class=\"u-tabs-item UEl_2\"]"
+                }
+            },
+            {
+                "$NAME": "Invalid",
+                "$SELECTOR": {
+                    "$TYPE": "css",
+                    "$VALUE": "uni-view[class=\"u-tabs-item UEl_3\"]"
+                }
+            }
+        ],
+        "$TICKET": [
+            {
+                "$NAME": "Sample",
+                "$SELECTOR": {
+                    "$TYPE": "css",
+                    "$VALUE": "uni-button[class=\"cu-btn sm radius bg-white\"]"
+                }
+            },
+            {
+                "$NAME": "Cancel",
+                "$SELECTOR": {
+                    "$TYPE": "css",
+                    "$VALUE": "uni-button[class=\"cu-btn sm radius bg-white\"]"
+                }
+            },
+            {
+                "$NAME": "WoS",
+                "$SELECTOR": {
+                    "$TYPE": "css",
+                    "$VALUE": "uni-button[class=\"cu-btn sm radius bg-white\"]"
+                }
+            }
+        ]
+    },
+    "$MY": [
+        {
+            "$NAME": "Balance",
+            "$SELECTOR": {
+                "$TYPE": "css",
+                "$VALUE": "uni-view[data-v-3ac58ee6=\"\"]"
+            }
+        },
+        {
+            "$NAME": "WithdrawalRecord",
+            "$SELECTOR": {
+                "$TYPE": "css",
+                "$VALUE": "uni-view[class=\"cu-item\"]"
+            },
+            "$SUB": {
+                "$NAME": "Record",
+                "$SELECTOR": {
+                    "$TYPE": "css",
+                    "$VALUE":"uni-view[class=\"flex text-sm padding-tb-sm\"]"
+                }
+            }
+        },
+        {
+            "$NAME": "Logout",
+            "$SELECTOR": {
+                "$TYPE": "css",
+                "$VALUE": "uni-view[class=\"cu-item\"]"
+            }
+        }
+    ]
+}

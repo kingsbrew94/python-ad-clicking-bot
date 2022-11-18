@@ -1,0 +1,30 @@
+[
+    {
+        "@url":"/404",
+        "@static":"404/error_page",
+        "@payload":{
+            "app_name":"ERROR::404"
+        }
+    },
+    {
+        "@url":"/",
+        "@controller": "@Test",
+        "@static": "app"
+    },
+    {
+        "@url": "/getAccounts",
+        "@controller": "get_accounts_info@SangoSupport"
+    },
+    {
+        "@url": "/addLog",
+        "@controller": "add_log@SangoSupport"
+    },
+    {
+        "@url": "/getMetadata",
+        "@controller": "get_metadata@SangoSupport"
+    },
+    {
+        "@url": "/logExists",
+        "@controller": "logs_exists_today@SangoSupport"
+    }
+]
